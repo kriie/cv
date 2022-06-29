@@ -1,0 +1,141 @@
+body{
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: sans-serif;
+}
+h1{
+  font-size: 3.5rem;
+  font-family: serif;
+  margin-top: 0;
+  color: #E6A4A4;
+}
+
+h2{
+  font-size: 2rem;
+  color: #B7F45F;
+  padding-bottom: 10px;
+}
+h3{
+  color: #E6A2A1;
+}
+p{
+  font-family: serif;
+  line-height: 2;
+}
+ a{
+   color:  #BF434F;
+   font-family: serif;
+  text-decoration: none;
+ }
+a:hover{
+  background-color: #AF43;
+}
+
+hr{
+  border-style: dotted none none none;
+  border-color: #EAF6F6;
+  border-width: 6px;
+  margin:100px auto;
+  width: 4%;
+}
+/*********class selector***********/
+.top-container{
+  background-color: #AF43;
+  padding-top: 100px;
+  position: relative;
+}
+.bottom-cloud{
+position: absolute;
+bottom:300px;
+left:200px;
+}
+.top-cloud{
+position: absolute;
+right: 250px;
+top:50px;
+
+}
+
+.middle-container{
+background-color:inherit;
+margin: 100px 0;
+}
+
+.bio{
+  width: 40%;
+  margin:auto;
+}
+.img{
+  border-radius: 20%;
+  width:200px;
+  height:200px;
+}
+
+.img2{
+  border-radius: 20%;
+    width:30%;
+    float: left;
+    margin-right: 30px;
+}
+
+.img3{
+  border-radius: 20%;
+    width:25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.img4{
+  border-radius: 20%;
+    width:20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.all{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.about{
+  width: 40%;
+margin: 40px auto 60px auto;
+}
+
+.bottom-container{
+  background-color: #E6D5D5;
+  padding: 50px 0 20px;
+}
+.left{
+  font-family: cursive;
+  font-size: 0.75rem;
+}
+
+.mail{
+  background: #BF434F;
+  background-image: -webkit-linear-gradient(top,  #BF434F, #B7F45F);
+  background-image: -moz-linear-gradient(top,  #BF434F, #B7F45F);
+  background-image: -ms-linear-gradient(top,  #BF434F, #B7F45F);
+  background-image: -o-linear-gradient(top,  #BF434F, #B7F45F);
+    background-image: linear-gradient(to bottom,  #BF434F, #B7F45F);
+    -webkit-border-radius :28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 10px 20px 20px 20px;
+  text-decoration: none;
+
+}
+
+.mail:hover{
+  background: #BF712F;
+  background-image: -webkit-linear-gradient(top,  #BF712F, #AF43);
+  background-image: -moz-linear-gradient(top,  #BF712F, #AF43);
+  background-image: -ms-linear-gradient(top,  #BF712F, #AF43);
+  background-image: -o-linear-gradient(top,  #BF712F, #AF43);
+    background-image: linear-gradient(to bottom,  #BF712F, #AF43);
+    text-decoration: none;
+}
